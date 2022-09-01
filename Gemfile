@@ -15,6 +15,9 @@ gem 'puma', '~> 5.0'
 # rubocop
 gem 'rubocop', '>= 1.0', '< 2.0'
 
+# jwt
+gem 'jwt'
+
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
 
