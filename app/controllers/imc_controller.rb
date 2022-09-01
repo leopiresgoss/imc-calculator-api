@@ -1,11 +1,11 @@
 require './lib/imc'
 
-class ImcController < ActionController::API
+class ImcController < ApplicationController
   before_action :set_data, only: [:calculate]
 
   def calculate
     result = IMC.new(@height, @weight).data
-    render json: { status: 200, result: result }
+    render json: { status: 200, result: }
   end
 
   private
